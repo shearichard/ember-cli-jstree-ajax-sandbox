@@ -1,0 +1,6 @@
+{
+  "name": "tree-demo",
+  "dependencies": {
+    "jstree": "^3.3.5"
+  }
+}
