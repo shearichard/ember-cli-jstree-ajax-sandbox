@@ -1,6 +1,6 @@
 import Controller from '@ember/controller';
 
 export default Controller.extend({
-  f:"First from component",
-  s:"Second from component"
+  firstTitle:"First from component 0",
+  secondTitle:"Second from component 0"
 });
