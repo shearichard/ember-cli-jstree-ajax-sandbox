@@ -10,6 +10,7 @@ Router.map(function() {
   this.route('treepage');
   this.route('simplecomponent');
   this.route('simplecomponentwrapper');
+  this.route('simpletree');
 });
 
 export default Router;
