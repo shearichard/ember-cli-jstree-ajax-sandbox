@@ -9,6 +9,7 @@ const Router = EmberRouter.extend({
 Router.map(function() {
   this.route('treepage');
   this.route('simplecomponent');
+  this.route('simplecomponentwrapper');
 });
 
 export default Router;
