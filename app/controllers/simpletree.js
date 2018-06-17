@@ -2,6 +2,15 @@ import Controller from '@ember/controller';
 import EmberObject, { computed } from '@ember/object';
 
 export default Controller.extend({
+
+  plugins: "search",
+
+  searchTerm: "",
+
+  searchOptions: computed(() => ({
+    show_only_matches: true
+  })),
+
   data: computed(() => [
     {
       id: "fr",
