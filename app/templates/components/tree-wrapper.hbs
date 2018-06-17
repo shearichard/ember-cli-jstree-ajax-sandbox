@@ -1,1 +1,17 @@
+    <div><strong>This is a component which has ember-jstree nested inside it</strong></div>
+    <div class="search">
+      <h2>Search</h2>
+        {{input type="text" placeholder="Search" class="search-input form-control" value=searchTerm}}
+    </div>
+
+    <div class="panel panel-default">
+      <div class="panel-body">
+        {{ember-jstree
+            data=data
+            plugins=plugins
+            searchOptions=searchOptions
+            searchTerm=searchTerm
+        }}
+      </div>
+    </div>
 {{yield}}

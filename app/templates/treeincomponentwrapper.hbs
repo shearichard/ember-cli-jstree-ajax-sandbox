@@ -1,1 +1,13 @@
-{{outlet}}
+<div class="container">
+  <h1>Tree in component wrapper</h1>
+  <p>Visit the {{#link-to 'index'}}Home Page{{/link-to}}</p>
+  <div>
+    {{tree-wrapper
+        data=data
+        plugins=plugins
+        searchOptions=searchOptions
+        searchTerm=searchTerm
+    }}
+  </div>
+  {{outlet}}
+</div>
