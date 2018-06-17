@@ -11,6 +11,7 @@ Router.map(function() {
   this.route('simplecomponent');
   this.route('simplecomponentwrapper');
   this.route('simpletree');
+  this.route('treeincomponentwrapper');
 });
 
 export default Router;
